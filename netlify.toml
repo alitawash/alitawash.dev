@@ -1,13 +1,12 @@
 [build]
-  base = "alitawash.me"
-  command = "hugo"
-  publish = "public/"
+  publish = "public"
+  command = "hugo --gc --minify"
 
 [build.environment]
   HUGO_THEME = "repo"
 
 [context.deploy-preview]
-  command = "hugo -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
