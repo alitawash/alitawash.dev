@@ -1,5 +1,5 @@
 +++
-title = "(Hu)go Template Primer"
+title = "(Hu)go Template Primerr"
 tags = [
     "go",
     "golang",
