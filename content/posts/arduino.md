@@ -1,12 +1,13 @@
 +++
-title = "Test Article"
+title = "(Hu)go Template Primerrrr"
 tags = [
     "go",
     "golang",
-    "hugo",
+    "templates",
+    "themes",
     "development",
 ]
-date = "2021-11-30"
+date = "2020-04-02"
 toc = true
 +++
 

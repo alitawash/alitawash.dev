@@ -11,6 +11,8 @@ date = "2014-04-02"
 toc = true
 +++
 
+This is a test
+
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
