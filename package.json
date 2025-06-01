@@ -1,0 +1,15 @@
+{
+  "name": "alitawash.dev",
+  "version": "1.0.0",
+  "description": "Personal website built with Hugo",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "start": "hugo server"
+  },
+  "author": "Ali N. Tawash",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-font-family-system-ui": "^5.0.0"
+  }
+}
